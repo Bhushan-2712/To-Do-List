@@ -1,32 +1,39 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: darkcyan;
+  background-image: url("https://img.freepik.com/premium-photo/beautiful-hd-wallpaper-hyper-realistic-colorful-image_1077802-353381.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
+  /* background-repeat: no-repeat; */
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 500px;
   margin: 0;
 }
 
 .container {
-  background: skyblue;
+  background: #0070BB ;
+  color: gold;
+  margin-left: -400px;
+  margin-top: 300px;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 400px;
   text-align: center;
 }
 
 input {
   width: 60%;
   padding: 10px;
+  background-color: antiquewhite;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 3px;
 }
 
 button {
-  
+
   padding: 10px 20px;
   border: none;
   background-color: #28a745;
@@ -56,15 +63,26 @@ li {
 
 li.completed {
   text-decoration: line-through;
-  color: #888;
+  color: darkred;
+  background-color: lightslategrey;
 }
 
 
-.container:hover{
-  background-color: gold;
+.container:hover {
+  background-color: #1da1f2 ;
+ 
 }
 
-li{
-  background-color:cornflowerblue
+li {
+  background-color:#00CCFF;
+  color: black;
 }
 
+/* .container:hover input::placeholder {
+  color: black; 
+  opacity: 0.5; 
+} */
+
+li:hover{
+  background-color: #0070BB ;
+}
