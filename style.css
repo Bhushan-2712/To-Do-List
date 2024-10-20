@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  /* background-repeat: no-repeat; */
   justify-content: center;
   align-items: center;
   height: 500px;
@@ -12,7 +11,7 @@ body {
 }
 
 .container {
-  background: #0070BB ;
+  background: #0070BB;
   color: gold;
   margin-left: -400px;
   margin-top: 300px;
@@ -69,20 +68,20 @@ li.completed {
 
 
 .container:hover {
-  background-color: #1da1f2 ;
- 
+  background-color: #1da1f2;
+
 }
 
 li {
-  background-color:#00CCFF;
+  background-color: #00CCFF;
   color: black;
 }
 
-/* .container:hover input::placeholder {
+
   color: black; 
   opacity: 0.5; 
 } */
 
-li:hover{
-  background-color: #0070BB ;
+li:hover {
+  background-color: #0070BB;
 }
